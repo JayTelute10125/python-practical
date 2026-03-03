@@ -1,0 +1,13 @@
+# Practical 6 - Lab Assignment 2
+
+print("Enter lines (type END to stop):")
+lines = []
+
+while True:
+    line = input()
+    if line.upper() == "END":
+        break
+    lines.append(line)
+
+for line in lines:
+    print(line.upper())
